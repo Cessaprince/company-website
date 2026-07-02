@@ -6,6 +6,7 @@ import rightArrow from "../images/icons/arrow-right.jpg"
 import foodbankImg from '../images/pictures/foodbankImg.png'
 import goShortletImg from '../images/pictures/goShortletImg.png'
 import lightbulbImg from '../images/icons/lightbulb.png'
+import Inquiry from '../components/Inquiry'
 
 const Home = () => {
     return (
@@ -24,7 +25,7 @@ const Home = () => {
                                 </p>
                                 <div className="flex gap-[15px] justify-center mt-[30px]">
                                     <button type="submit" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-[var(--dark-orange)] rounded-[25px] hover:bg-orange-400'>get started</button>
-                                    <button type="submit" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-gray-900 border-gray-300 border-[1px] rounded-[25px] hover:bg-gray-800'>see our solutions</button>
+                                    <button type="submit" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-gray-900 border-gray-500 border-[1px] rounded-[25px] hover:bg-gray-800'>see our solutions</button>
 
                                 </div>
                             </div>
@@ -203,7 +204,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className='bg-black h-auto w-full py-[60px]'>
+                <section className='bg-black h-auto w-full py-[70px]'>
                     <div className="short-section">
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[40px]'>our working process</h3>
@@ -213,7 +214,7 @@ const Home = () => {
 
 
                         <div className="grid grid-cols-4 gap-[20px] my-[40px]">
-                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[20px] h-auto rounded-[10px]">
+                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
                                 <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
 
                                     <div className='h-full wfull overflow-hidden'>
@@ -222,7 +223,43 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
-                                <p className='text-gray-400 text-sm font-light text-normal'>Our dedicated team provides ongoing support and guidance</p>
+                                <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
+
+                            </div>
+                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
+                                <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
+
+                                    <div className='h-full wfull overflow-hidden'>
+                                        <img src={lightbulbImg} alt="" className='h-full w-full object-cover' />
+
+                                    </div>
+                                </div>
+                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                                <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
+
+                            </div>
+                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
+                                <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
+
+                                    <div className='h-full wfull overflow-hidden'>
+                                        <img src={lightbulbImg} alt="" className='h-full w-full object-cover' />
+
+                                    </div>
+                                </div>
+                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                                <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
+
+                            </div>
+                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
+                                <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
+
+                                    <div className='h-full wfull overflow-hidden'>
+                                        <img src={lightbulbImg} alt="" className='h-full w-full object-cover' />
+
+                                    </div>
+                                </div>
+                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                                <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                             </div>
 
@@ -230,6 +267,8 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+
+                <Inquiry/>
             </div>
         </div>
     )
