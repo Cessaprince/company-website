@@ -77,7 +77,7 @@ const Home = () => {
                     </div>
                 </main>
 
-                <section className='blue-box h-auto w-full py-[60px]'>
+                <section className='blue-box h-auto w-full py-[100px]'>
                     <div className="short-section">
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[40px]'>what we do</h3>
@@ -111,9 +111,8 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className='bg-black h-auto w-full py-[60px]'>
+                <section className='bg-black h-auto w-full py-[100px]'>
                     <div className="short-section">
-
 
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[40px]'>product highlights</h3>
@@ -139,7 +138,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className='bg-black h-auto w-full py-[60px]'>
+                <section className='bg-black h-auto w-full py-[100px]'>
                     <div className="short-section flex gap-[50px] ">
                         <div className="flex flex-col gap-2 w-[600px] gap-[20px]">
                             <h3 className='text-white capitalize font-bold text-[40px] leading-[40px]'>Expertise Without Borders: Collaborate with Us</h3>
@@ -166,10 +165,10 @@ const Home = () => {
                 </section>
 
 
-                <section className='blue-box h-auto w-full py-[60px]'>
+                <section className='blue-box h-auto w-full py-[100px]'>
                     <div className="short-section">
                         <div className="flex flex-col items-center gap-2 text-center">
-                            <h3 className='text-white capitalize font-bold text-[40px]'>what choose <span className='text-[var(--dark-orange)]'>sovereign</span></h3>
+                            <h3 className='text-white capitalize font-bold text-[40px]'>why choose <span className='text-[var(--dark-orange)]'>sovereign</span></h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px]'>we're dedicated to helping organizations like yours thrive. Discover why we're the trusted partner for workplace well-being solutions.</p>
                         </div>
 
