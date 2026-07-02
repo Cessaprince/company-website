@@ -5,6 +5,7 @@ import ProjectCount from '../components/ProjectCount'
 import rightArrow from "../images/icons/arrow-right.jpg"
 import foodbankImg from '../images/pictures/foodbankImg.png'
 import goShortletImg from '../images/pictures/goShortletImg.png'
+import lightbulbImg from '../images/icons/lightbulb.png'
 
 const Home = () => {
     return (
@@ -120,19 +121,112 @@ const Home = () => {
 
                         <div className="grid grid-cols-3 my-[50px] gap-[20px]">
                             <div className="h-[250px] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
-                                <img src={foodbankImg} alt="" className='w-full h-full object-cover'/>
+                                <img src={foodbankImg} alt="" className='w-full h-full object-cover' />
 
                             </div>
 
-                                                        <div className="h-[250px] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
-                                <img src={goShortletImg} alt="" className='w-full h-full object-cover'/>
+                            <div className="h-[250px] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
+                                <img src={goShortletImg} alt="" className='w-full h-full object-cover' />
 
                             </div>
 
-                                                        <div className="h-[250px] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
-                                <img src={foodbankImg} alt="" className='w-full h-full object-cover'/>
+                            <div className="h-[250px] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
+                                <img src={foodbankImg} alt="" className='w-full h-full object-cover' />
 
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='bg-black h-auto w-full py-[60px]'>
+                    <div className="short-section flex gap-[50px] ">
+                        <div className="flex flex-col gap-2 w-[600px] gap-[20px]">
+                            <h3 className='text-white capitalize font-bold text-[40px] leading-[40px]'>Expertise Without Borders: Collaborate with Us</h3>
+                            <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[400px]'>We develop cutting-edge solutions tailored to your organization's unique needs.</p>
+                        </div>
+
+                        <div className="flex flex-col flex-1 gap-[15px]">
+                            <p className='text-gray-200 font-light text-sm leading-[20px]'>Collaborate with our diverse team of experts across different professions to solve Your work place problem</p>
+                            <p className='text-gray-400 font-light text-sm leading-[20px]'>Reports that describe the past but don't guide the future</p>
+
+                            <div className='leading-[35px]'>
+                                <p className='text-[var(--dark-orange)] capitalize font-semibold text-normal leading-[20px]'>Let Help You identify Challenges.</p>
+                                <p className='text-gray-400 font-light text-sm leading-[20px]'>Our Team is ready to jump in as per your request to analysis and identify problem</p>
+                            </div>
+                            <div className='leading-[35px]'>
+                                <p className='text-[var(--dark-orange)] capitalize font-semibold text-sm leading-[20px]'>And Solve Them</p>
+                                <p className='text-gray-400 font-light text-sm leading-[20px]'>We propose and provide solution to the problem respectively.</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </section>
+
+
+                <section className='blue-box h-auto w-full py-[60px]'>
+                    <div className="short-section">
+                        <div className="flex flex-col items-center gap-2 text-center">
+                            <h3 className='text-white capitalize font-bold text-[40px]'>what choose <span className='text-[var(--dark-orange)]'>sovereign</span></h3>
+                            <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px]'>we're dedicated to helping organizations like yours thrive. Discover why we're the trusted partner for workplace well-being solutions.</p>
+                        </div>
+
+                        <div className="grid grid-cols-2 mt-[40px] mb-[20px] gap-[20px]">
+                            <div className="bg-gray-900 hover:bg-gray-800 cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[20px] h-auto rounded-[10px]">
+                                <p className='text-gray-400 text-sm font-light text-normal'>Our dedicated team provides ongoing support and guidance</p>
+                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                            </div>
+
+                            <div className="bg-gray-900 hover:bg-gray-800 cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[20px] h-auto rounded-[10px]">
+                                <p className='text-gray-400 text-sm font-light text-normal'>Our dedicated team provides ongoing support and guidance</p>
+                                <p className='text-white capitalize font-bold text-[19px]'>next level e-commerce solutions</p>
+                            </div>
+                        </div>
+
+                        <div className="grid grid-cols-3 gap-[20px]">
+                            <div className="bg-gray-900 hover:bg-gray-800 cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[20px] h-auto rounded-[10px]">
+                                <p className='text-gray-400 text-sm font-light text-normal'>Our dedicated team provides ongoing support and guidance</p>
+                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                            </div>
+
+                            <div className="bg-gray-900 hover:bg-gray-800 cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[20px] h-auto rounded-[10px]">
+                                <p className='text-gray-400 text-sm font-light text-normal'>Our dedicated team provides ongoing support and guidance</p>
+                                <p className='text-white capitalize font-bold text-[19px]'>next level e-commerce solutions</p>
+                            </div>
+
+                            <div className="bg-gray-900 hover:bg-gray-800 cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[20px] h-auto rounded-[10px]">
+                                <p className='text-gray-400 text-sm font-light text-normal'>Our dedicated team provides ongoing support and guidance</p>
+                                <p className='text-white capitalize font-bold text-[19px]'>next level e-commerce solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='bg-black h-auto w-full py-[60px]'>
+                    <div className="short-section">
+                        <div className="flex flex-col items-center gap-2 text-center">
+                            <h3 className='text-white capitalize font-bold text-[40px]'>our working process</h3>
+                            <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px]'>How We Collaborate with You to Achieve Workplace Excellence</p>
+                        </div>
+
+
+
+                        <div className="grid grid-cols-4 gap-[20px] my-[40px]">
+                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[20px] h-auto rounded-[10px]">
+                                <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
+
+                                    <div className='h-full wfull overflow-hidden'>
+                                        <img src={lightbulbImg} alt="" className='h-full w-full object-cover' />
+
+                                    </div>
+                                </div>
+                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                                <p className='text-gray-400 text-sm font-light text-normal'>Our dedicated team provides ongoing support and guidance</p>
+
+                            </div>
+
+
                         </div>
                     </div>
                 </section>
