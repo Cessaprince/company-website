@@ -7,7 +7,7 @@ import lightbulbImg from '../images/icons/lightbulb.png';
 const Inquiry = () => {
   return (
     <div>
-      <section className='bg-black py-[50px] h-auto'>
+      <section className='bg-black py-[50px] h-auto w-full'>
         <div className="short-section">
           <div className="flex flex-col items-center gap-2 text-center">
             <h3 className='text-white capitalize font-bold text-[40px]'>have an enquiry?</h3>

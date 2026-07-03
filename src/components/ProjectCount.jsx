@@ -3,9 +3,9 @@ import React from 'react'
 const ProjectCount = () => {
   return (
     <div>
-      <section>
+      <section className="w-full bg-black py-[50px]">
         <div className="short-section bg-black h-auto pt-[50px]">
-          <div className="grid grid-cols-4">
+          <div className="grid grid-cols-4 gap-[60px]">
             <div className='flex flex-col gap-[2px]'>
               <h3 className='num-count text-white font-black text-[50px]'>2,020</h3>
               <div className="leading-[5px]">

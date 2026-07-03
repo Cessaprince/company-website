@@ -16,7 +16,7 @@ const Home = () => {
 
                 <main className='w-full bg-black h-auto pb-[100px]' id='main-home'>
                     <section className=''>
-                        <div className="mx-auto my-[35px] w-[900px] max-w-[60%]">
+                        <div className="mx-auto my-[35px] w-[70%] max-w-[900px]">
                             <h3 className='capitalize text-white text-[70px] font-black leading-[65px] text-center'>Partner with <span className='text-[var(--dark-orange)]'>sovereign tech </span>for cutting-edge solutions</h3>
                             <div className="mx-auto my-[30px] w-[600px] max-w-[65%]">
                                 <p className='text-white font-light leading-[25px] text-center'>
@@ -31,7 +31,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="mx-auto my-[60px] w-[1000px] h-auto border-[1px] border-gray-600 rounded-[15px]">
+                        <div className="mx-auto my-[60px] max-w-[1000px] w-[70%] h-auto border-[1px] border-gray-800 rounded-[15px]">
                             <div className="overflow-hidden w-auto">
                                 <img src={sovereignImg} alt="" className='w-full h-full object-cover' />
                             </div>

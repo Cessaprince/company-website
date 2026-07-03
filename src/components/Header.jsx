@@ -9,8 +9,8 @@ const Header = () => {
     return (
         <div>
             <section className="w-full bg-black h-auto py-[12px]">
-                <div className="short-section flex gap-50 items-center justify-evenly">
-                    <div className="h-40px] w-[30px] overflow-hidden">
+                <div className="short-section flex items-center justify-between gap-[24px]">
+                    <div className="h-[40px] w-[40px] overflow-hidden">
                         <img src={logo} alt="" className="w-full h-full object-cover" />
                     </div>
 

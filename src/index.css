@@ -13,8 +13,8 @@ body {
   --light-purple2: #3350f4;
   --dark-orange: #f2641e;
   --bg-white: #ffffff08;
-  --dark-blue: #0b1030;
-  --dark-blue2: #05060f;
+  --dark-blue: #192571;
+  --dark-blue1: rgb(5, 9, 41);
   --dark-blue2: #04050f;
   --lighter-orange: #220d02;
   --light-orange: #f2641e33;
@@ -29,8 +29,8 @@ section {
 }
 
 .short-section{
-  width: 1500px;
-  max-width: 80%;
+  width: 80%;
+  max-width: 1280px;
   margin: auto;
 }
 
