@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import aboutUs from '../images/pictures/aboutUsImg.png'
 import ProjectCount from '../components/ProjectCount'
 import Inquiry from '../components/Inquiry'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
     return (

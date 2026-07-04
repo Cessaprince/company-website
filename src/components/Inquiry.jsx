@@ -1,8 +1,8 @@
 import React from 'react'
 import logo from "../images/pictures/sovereign-logo.png";
-import rightArrow from "../images/icons/arrow-right.jpg";
 import { Link } from 'react-router-dom';
-import lightbulbImg from '../images/icons/lightbulb.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Inquiry = () => {
   return (
@@ -12,12 +12,11 @@ const Inquiry = () => {
           <div className="flex flex-col items-center gap-2 text-center">
             <h3 className='text-white capitalize font-bold text-[40px]'>have an enquiry?</h3>
             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px]'>Send us a message if You don't want to book a meeting at this time, and we'll get back to you within 24 hours.</p>
-            <button className="text-white inline-flex items-center gap-2 bg-[var(--dark-orange)] py-[10px] px-[30px] rounded-[35px] hover:bg-orange-400 cursor-pointer mt-[20px]">
+            <Link className="text-white inline-flex items-center gap-2 bg-[var(--dark-orange)] py-[10px] px-[30px] rounded-[35px] hover:bg-orange-400 cursor-pointer mt-[20px]">
               <span>Send a Message</span>
-              <span className="overflow-hidden w-[10px] h-[10px]">
-                <img src={rightArrow} alt="" className="h-full w-full object-cover" />
-              </span>
-            </button>
+              <FontAwesomeIcon icon={['fas', 'arrow-right']} className="group-hover:text-white" size="xs" />
+
+            </Link>
           </div>
 
         </div>
@@ -31,7 +30,7 @@ const Inquiry = () => {
         <div className="short-section">
           <div className='flex gap-[25px]'>
             <div className="flex flex-col w-[25%] gap-[10px]">
-              <div className='h-[40px] w-[40px] overflow-hidden'>
+              <div className='h-[30px] w-[30px] overflow-hidden'>
                 <img src={logo} alt="" className='w-full h-full object-cover' />
               </div>
               <h3 className='font-bold text-white capitalize text-[25px]'>Sovereign tech</h3>
@@ -49,7 +48,7 @@ const Inquiry = () => {
 
             <div className="flex flex-col w-[25%] gap-[10px]">
 
-              <h3 className='font-bold text-[var(--dark-orange)] capitalize text-[25px]'>useful links</h3>
+              <h3 className='font-bold text-[var(--dark-orange)] capitalize text-[25px]'>help</h3>
               <Link to='' className='text-gray-400 text-sm font-light text-normal leading-[24px] capitalize hover:text-white'>contact us</Link>
               <Link to='' className='text-gray-400 text-sm font-light text-normal leading-[24px] capitalize hover:text-white'>customer service</Link>
 
@@ -72,21 +71,21 @@ const Inquiry = () => {
 
             {/* bottom right icons */}
             <div className='flex gap-[10px] items-center'>
-              <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
+              <Link
+                className="group h-[40px] w-[40px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center hover:bg-[var(--dark-orange)]">
+                <FontAwesomeIcon
+                  icon={['fab', 'instagram']}
+                  className="text-[var(--dark-orange)] group-hover:text-white"
+                />
+              </Link>
 
-                <div className='h-full wfull overflow-hidden'>
-                  <img src='' alt="" className='h-full w-full object-cover' />
-
-                </div>
-              </div>
-
-              <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
-
-                <div className='h-full wfull overflow-hidden'>
-                  <img src='' alt="" className='h-full w-full object-cover' />
-
-                </div>
-              </div>
+              <Link
+                className="group h-[40px] w-[40px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center hover:bg-[var(--dark-orange)]">
+                <FontAwesomeIcon
+                  icon={['fab', 'tiktok']}
+                  className="text-[var(--dark-orange)] group-hover:text-white"
+                />
+              </Link>
             </div>
           </div>
         </div>

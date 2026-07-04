@@ -14,7 +14,7 @@ body {
   --dark-orange: #f2641e;
   --bg-white: #ffffff08;
   --dark-blue: #192571;
-  --dark-blue1: rgb(5, 9, 41);
+  --dark-blue1: rgb(8, 14, 59);
   --dark-blue2: #04050f;
   --lighter-orange: #220d02;
   --light-orange: #f2641e33;
@@ -44,5 +44,10 @@ section {
 }
 
 .blue-box{
-  background: linear-gradient(var(--dark-blue), black);
+  background: linear-gradient(var(--dark-blue1), black), black;
+}
+
+.service-blue-box{
+    background: linear-gradient(to right, var(--dark-blue1), var(--dark-blue2)), black;
+
 }

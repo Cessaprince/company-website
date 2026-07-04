@@ -2,11 +2,12 @@ import React from 'react'
 import Header from '../components/Header'
 import sovereignImg from '../images/pictures/sovereign-img.png'
 import ProjectCount from '../components/ProjectCount'
-import rightArrow from "../images/icons/arrow-right.jpg"
 import foodbankImg from '../images/pictures/foodbankImg.png'
 import goShortletImg from '../images/pictures/goShortletImg.png'
 import lightbulbImg from '../images/icons/lightbulb.png'
 import Inquiry from '../components/Inquiry'
+import { Link, NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Home = () => {
     return (
@@ -24,8 +25,8 @@ const Home = () => {
                                     focusing on outstanding user experience.
                                 </p>
                                 <div className="flex gap-[15px] justify-center mt-[30px]">
-                                    <button type="submit" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-[var(--dark-orange)] rounded-[25px] hover:bg-orange-400'>get started</button>
-                                    <button type="submit" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-gray-900 border-gray-500 border-[1px] rounded-[25px] hover:bg-gray-800'>see our solutions</button>
+                                    <Link type="button" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-[var(--dark-orange)] rounded-[25px] hover:bg-orange-400'>get started</Link>
+                                    <Link type="button" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-gray-900 border-gray-500 border-[1px] rounded-[25px] hover:bg-gray-800'>see our solutions</Link>
 
                                 </div>
                             </div>
@@ -67,13 +68,12 @@ const Home = () => {
                     <ProjectCount />
 
 
+
                     <div className='flex justify-center mt-[50px]'>
-                        <button className="text-white inline-flex items-center gap-2 bg-[var(--dark-purple)] py-[10px] px-[25px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer">
-                            <span>More</span>
-                            <span className="overflow-hidden w-[10px] h-[10px]">
-                                <img src={rightArrow} alt="" className="h-full w-full object-cover" />
-                            </span>
-                        </button>
+                        <Link className="group text-gray-200 inline-flex items-center gap-2 bg-[var(--dark-purple)] py-[7px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer">
+                            <span className="group-hover:text-white">More</span>
+                            <FontAwesomeIcon icon={['fas', 'arrow-right']} className="group-hover:text-white" size="xs" />
+                        </Link>
                     </div>
                 </main>
 
@@ -214,49 +214,49 @@ const Home = () => {
 
                         <div className="grid grid-cols-4 gap-[20px] my-[40px]">
                             <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
-                                <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
-
-                                    <div className='h-full wfull overflow-hidden'>
-                                        <img src={lightbulbImg} alt="" className='h-full w-full object-cover' />
-
-                                    </div>
-                                </div>
+                                <Link
+                                    className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
+                                    <FontAwesomeIcon
+                                        icon={['fab', 'tiktok']}
+                                        className="text-[var(--dark-orange)]"
+                                    />
+                                </Link>
                                 <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
                                 <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                             </div>
                             <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
-                                <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
-
-                                    <div className='h-full wfull overflow-hidden'>
-                                        <img src={lightbulbImg} alt="" className='h-full w-full object-cover' />
-
-                                    </div>
-                                </div>
+                                <Link
+                                    className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
+                                    <FontAwesomeIcon
+                                        icon={['fab', 'tiktok']}
+                                        className="text-[var(--dark-orange)]"
+                                    />
+                                </Link>
                                 <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
                                 <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                             </div>
                             <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
-                                <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
-
-                                    <div className='h-full wfull overflow-hidden'>
-                                        <img src={lightbulbImg} alt="" className='h-full w-full object-cover' />
-
-                                    </div>
-                                </div>
+                                <Link
+                                    className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
+                                    <FontAwesomeIcon
+                                        icon={['fab', 'tiktok']}
+                                        className="text-[var(--dark-orange)]"
+                                    />
+                                </Link>
                                 <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
                                 <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                             </div>
-                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
-                                <div className='h-[40px] w-[40px] border-[var(--dark-orange)] border-[0.1px] rounded-[50%] bg-[var(--lighter-orange)]  overflow-hidden'>
-
-                                    <div className='h-full wfull overflow-hidden'>
-                                        <img src={lightbulbImg} alt="" className='h-full w-full object-cover' />
-
-                                    </div>
-                                </div>
+                            <div className="bg-gray hover:bg-[var(--dark-blue2)] flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
+                                <Link
+                                    className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
+                                    <FontAwesomeIcon
+                                        icon={['fab', 'tiktok']}
+                                        className="text-[var(--dark-orange)]"
+                                    />
+                                </Link>
                                 <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
                                 <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
@@ -267,7 +267,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                <Inquiry/>
+                <Inquiry />
             </div>
         </div>
     )
