@@ -12,8 +12,8 @@ const Header = () => {
 
     return (
         <div>
-            <section className="w-full bg-black h-auto py-[12px]" id='myHeader'>
-                <div className="short-section flex items-center justify-between gap-[24px]">
+            <section className="w-full bg-black h-auto py-[12px] max-md:hidden" id='myHeader'>
+                <div className="short-section flex items-center justify-between gap-[30px]">
                     <div className="h-[30px] w-[30px] overflow-hidden">
                         <img src={logo} alt="" className="w-full h-full object-cover" />
                     </div>
