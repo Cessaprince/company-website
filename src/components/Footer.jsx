@@ -13,7 +13,7 @@ const Footer = () => {
                             <div className='h-[30px] w-[30px] overflow-hidden'>
                                 <img src={logo} alt="" className='w-full h-full object-cover' />
                             </div>
-                            <h3 className='font-bold text-white capitalize text-[25px]'>Sovereign tech</h3>
+                            <h3 className='font-bold text-white capitalize text-[25px]'>Sovereign tec</h3>
                             <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>At Sovereign Technology and Innovation Limited, we leverage technology and innovation to create powerful digital solutions that transform businesses, optimize processes, and unlock new opportunities for growth in the digital economy.</p>
 
                         </div>

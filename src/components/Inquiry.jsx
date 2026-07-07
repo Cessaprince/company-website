@@ -20,7 +20,6 @@ const Inquiry = () => {
 
         </div>
 
-        <div className='border-[0.09px] border-collapse w-full h-full border-gray-600 mt-[80px] mb-[40px]'></div>
 
       </section>
 
