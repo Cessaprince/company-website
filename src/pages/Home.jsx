@@ -26,8 +26,8 @@ const Home = () => {
                                     focusing on outstanding user experience.
                                 </p>
                                 <div className="flex gap-[15px] justify-center mt-[30px]">
-                                    <Link type="button" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-[var(--dark-orange)] rounded-[25px] hover:bg-orange-400'>get started</Link>
-                                    <Link type="button" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-gray-900 border-gray-500 border-[1px] rounded-[25px] hover:bg-gray-800'>see our solutions</Link>
+                                    <Link type="button" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-[var(--dark-orange)] rounded-[25px] hover:bg-orange-400 max-md:text-[14px] max-md:text-center'>get started</Link>
+                                    <Link type="button" className='capitalize text-white py-[10px] font-[500] px-[30px] bg-gray-900 border-gray-500 border-[1px] rounded-[25px] hover:bg-gray-800 max-md:text-[14px] max-md:text-center'>see our solutions</Link>
 
                                 </div>
                             </div>
@@ -144,7 +144,7 @@ const Home = () => {
                 <section className='bg-black h-auto w-full py-[100px]'>
                     <div className="short-section flex gap-[50px] max-md:flex-col">
                         <div className="flex flex-col gap-2 max-w-[600px] gap-[20px]">
-                            <h3 className='text-white capitalize font-bold text-[40px] leading-[40px]'>Expertise Without Borders: Collaborate with Us</h3>
+                            <h3 className='text-white capitalize font-bold text-[40px] leading-[40px] max-md:text-[25px]'>Expertise Without Borders: Collaborate with Us</h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[400px]'>We develop cutting-edge solutions tailored to your organization's unique needs.</p>
                         </div>
 
