@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <div>
-            <section className="w-full bg-black h-auto py-[12px]">
+            <section className="w-full bg-black h-auto py-[12px]" id='myHeader'>
                 <div className="short-section flex items-center justify-between gap-[24px]">
                     <div className="h-[30px] w-[30px] overflow-hidden">
                         <img src={logo} alt="" className="w-full h-full object-cover" />
@@ -36,7 +36,7 @@ const Header = () => {
                         </NavLink>
                     </nav>
 
-                    <Link className="group text-gray-200 inline-flex items-center gap-2 bg-[var(--dark-purple)] py-[7px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer">
+                    <Link to='/contact-us' className="group text-gray-200 inline-flex items-center gap-2 bg-[var(--dark-purple)] py-[7px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer">
                         <span className="group-hover:text-white">Book a Call</span>
                         <FontAwesomeIcon icon={['fas', 'arrow-right']} className="group-hover:text-white" size="xs" />
                     </Link>

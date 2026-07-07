@@ -4,6 +4,7 @@ import aboutUs from '../images/pictures/aboutUsImg.png'
 import ProjectCount from '../components/ProjectCount'
 import Inquiry from '../components/Inquiry'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Footer from '../components/Footer'
 
 const About = () => {
     return (
@@ -70,7 +71,8 @@ const About = () => {
 
                 <ProjectCount />
 
-                <Inquiry/>
+                <Inquiry />
+                <Footer/>
             </div>
         </div>
     )

@@ -8,6 +8,7 @@ import lightbulbImg from '../images/icons/lightbulb.png'
 import Inquiry from '../components/Inquiry'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
@@ -119,22 +120,24 @@ const Home = () => {
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px]'>Partner with our experts to create a workplace that thrives. We collaborate closely with you to understand your organization's unique challenges and goals, developing customized solutions that drive innovative strategies, measurable results, enhanced employee engagement,</p>
                         </div>
 
-                        <div className="grid grid-cols-3 my-[50px] gap-[20px]">
-                            <div className="h-[250px] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
-                                <img src={foodbankImg} alt="" className='w-full h-full object-cover' />
+                        <div className="w-full overflow-x-auto">
+                            <div className="flex items-stretch gap-[20px] my-[50px]">
 
-                            </div>
+                                <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
+                                    <img src={foodbankImg} alt="" className='w-full h-full object-cover' />
+                                </div>
 
-                            <div className="h-[250px] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
-                                <img src={goShortletImg} alt="" className='w-full h-full object-cover' />
+                                <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
+                                    <img src={goShortletImg} alt="" className='w-full h-full object-cover' />
+                                </div>
 
-                            </div>
-
-                            <div className="h-[250px] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
-                                <img src={foodbankImg} alt="" className='w-full h-full object-cover' />
+                                <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden">
+                                    <img src={foodbankImg} alt="" className='w-full h-full object-cover' />
+                                </div>
 
                             </div>
                         </div>
+
                     </div>
                 </section>
 
@@ -212,62 +215,66 @@ const Home = () => {
 
 
 
-                        <div className="grid grid-cols-4 gap-[20px] my-[40px]">
-                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
-                                <Link
-                                    className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
-                                    <FontAwesomeIcon
-                                        icon={['fab', 'tiktok']}
-                                        className="text-[var(--dark-orange)]"
-                                    />
-                                </Link>
-                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
-                                <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
+                        <div className='w-full overflow-x-auto'>
+                            <div className="flex items-stretch gap-[20px] my-[40px]">
+                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
+                                    <Link
+                                        className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
+                                        <FontAwesomeIcon
+                                            icon={['fab', 'tiktok']}
+                                            className="text-[var(--dark-orange)]"
+                                        />
+                                    </Link>
+                                    <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                                    <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
+
+                                </div>
+                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
+                                    <Link
+                                        className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
+                                        <FontAwesomeIcon
+                                            icon={['fab', 'tiktok']}
+                                            className="text-[var(--dark-orange)]"
+                                        />
+                                    </Link>
+                                    <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                                    <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
+
+                                </div>
+                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
+                                    <Link
+                                        className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
+                                        <FontAwesomeIcon
+                                            icon={['fab', 'tiktok']}
+                                            className="text-[var(--dark-orange)]"
+                                        />
+                                    </Link>
+                                    <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                                    <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
+
+                                </div>
+                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
+                                    <Link
+                                        className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
+                                        <FontAwesomeIcon
+                                            icon={['fab', 'tiktok']}
+                                            className="text-[var(--dark-orange)]"
+                                        />
+                                    </Link>
+                                    <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
+                                    <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
+
+                                </div>
+
 
                             </div>
-                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
-                                <Link
-                                    className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
-                                    <FontAwesomeIcon
-                                        icon={['fab', 'tiktok']}
-                                        className="text-[var(--dark-orange)]"
-                                    />
-                                </Link>
-                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
-                                <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
-
-                            </div>
-                            <div className="bg-gray hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
-                                <Link
-                                    className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
-                                    <FontAwesomeIcon
-                                        icon={['fab', 'tiktok']}
-                                        className="text-[var(--dark-orange)]"
-                                    />
-                                </Link>
-                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
-                                <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
-
-                            </div>
-                            <div className="bg-gray hover:bg-[var(--dark-blue2)] flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px]">
-                                <Link
-                                    className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
-                                    <FontAwesomeIcon
-                                        icon={['fab', 'tiktok']}
-                                        className="text-[var(--dark-orange)]"
-                                    />
-                                </Link>
-                                <p className='text-white capitalize font-bold text-[19px]'>personalised support</p>
-                                <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
-
-                            </div>
-
-
                         </div>
                     </div>
                 </section>
 
                 <Inquiry />
+                <Footer/>
+                
             </div>
         </div>
     )

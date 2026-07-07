@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Header from '../components/Header'
 import ServiceComp from '../components/ServiceComp'
 import Inquiry from '../components/Inquiry'
+import Footer from '../components/Footer'
+
 
 const Service = () => {
     return (
@@ -211,7 +213,8 @@ const Service = () => {
 
                 </section>
 
-                <Inquiry/>
+                <Inquiry />
+                <Footer />
             </div>
         </div>
     )
