@@ -209,7 +209,7 @@ const Home = () => {
                 <section className='bg-black h-auto w-full py-[70px]'>
                     <div className="short-section">
                         <div className="flex flex-col items-center gap-2 text-center">
-                            <h3 className='text-white capitalize font-bold text-[40px]'>our working process</h3>
+                            <h3 className='text-white capitalize font-bold text-[40px] max-md:text-[32px]'>our working process</h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px]'>How We Collaborate with You to Achieve Workplace Excellence</p>
                         </div>
 
@@ -217,7 +217,7 @@ const Home = () => {
 
                         <div className='w-full overflow-x-auto'>
                             <div className="flex items-stretch gap-[20px] my-[40px]">
-                                <div className="bg-gray min-w-[30%] max-w-[30%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[60%] max-md:max-w-[60%]">
+                                <div className="bg-gray min-w-[30%] max-w-[30%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[80%] max-md:max-w-[80%]">
                                     <Link
                                         className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
                                         <FontAwesomeIcon
@@ -229,7 +229,7 @@ const Home = () => {
                                     <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                                 </div>
-                                <div className="bg-gray min-w-[30%] max-w-[30%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[60%] max-md:max-w-[60%]">
+                                <div className="bg-gray min-w-[30%] max-w-[30%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[80%] max-md:max-w-[80%]">
                                     <Link
                                         className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
                                         <FontAwesomeIcon
@@ -241,7 +241,7 @@ const Home = () => {
                                     <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                                 </div>
-                                <div className="bg-gray min-w-[30%] max-w-[30%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[60%] max-md:max-w-[60%]">
+                                <div className="bg-gray min-w-[30%] max-w-[30%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[80%] max-md:max-w-[80%]">
                                     <Link
                                         className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
                                         <FontAwesomeIcon
@@ -253,7 +253,7 @@ const Home = () => {
                                     <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                                 </div>
-                                <div className="bg-gray min-w-[30%] max-w-[30%] hover:bg-[var(--dark-blue2)] flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[60%] max-md:max-w-[60%]">
+                                <div className="bg-gray min-w-[30%] max-w-[30%] hover:bg-[var(--dark-blue2)] flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[80%] max-md:max-w-[80%]">
                                     <Link
                                         className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
                                         <FontAwesomeIcon
