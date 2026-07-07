@@ -143,7 +143,7 @@ const Home = () => {
 
                 <section className='bg-black h-auto w-full py-[100px]'>
                     <div className="short-section flex gap-[50px] max-md:flex-col">
-                        <div className="flex flex-col gap-2 w-[600px] gap-[20px]">
+                        <div className="flex flex-col gap-2 max-w-[600px] gap-[20px]">
                             <h3 className='text-white capitalize font-bold text-[40px] leading-[40px]'>Expertise Without Borders: Collaborate with Us</h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[400px]'>We develop cutting-edge solutions tailored to your organization's unique needs.</p>
                         </div>
