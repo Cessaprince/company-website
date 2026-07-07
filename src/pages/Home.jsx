@@ -44,7 +44,7 @@ const Home = () => {
                         <div className="short-section">
                             <div className="flex flex-col gap-[20px]">
                                 <div className='leading-[35px]'>
-                                    <h3 className='font-bold capitalize text-[35px] text-white'><span className='text-gray-400'>more than</span> technology</h3>
+                                    <h3 className='font-bold capitalize text-[35px] text-white '><span className='text-gray-400'>more than</span> technology</h3>
                                     <h3 className='font-bold capitalize text-[35px] text-white'>we bring clarity to decisions</h3>
                                 </div>
                                 <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[70%] max-md:max-w-[100%]'>We develop cutting-edge solutions tailored to your organization's unique needs. At <i className='text-[var(--dark-orange)]'>Sovereign Tech </i>and Innovations, we help your business to the next levelfor cutting-edge solutions</p>
