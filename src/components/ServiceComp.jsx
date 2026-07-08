@@ -9,13 +9,13 @@ const ServiceComp = () => {
             <div className="w-full">
                 
                 <div className="flex flex-col gap-[5px] rounded-[15px] p-[25px] bg-white">
-                    <span className='text-[var(--dark-orange)] uppercase text-xs font-semibold'>what we do</span>
-                    <h1 className='text-black font-bold capitalize text-[20px]'>problem solving</h1>
-                    <span className="text-gray-400 text-xs font-light">
+                    <span className='text-[var(--dark-orange)] uppercase text-xs font-semibold max-md:text-[10px]'>what we do</span>
+                    <h1 className='text-black font-bold capitalize text-[20px] max-md:text-[18px]'>problem solving</h1>
+                    <span className="text-gray-400 text-xs font-light max-md:text-[12px]">
                         Partner with our experts to create a workplace that thrives.
                     </span>
                     {/* the icons of identify, develop, implement etc*/}
-                    <div className="grid grid-cols-6 mt-[20px]">
+                    <div className="grid grid-cols-6 mt-[20px] max-md:grid-cols-3 max-md:gap-[20px]">
                         {/* magnifying glass*/}
 
                         <div className="flex flex-col gap-[3px] items-center justify-center">
@@ -92,7 +92,7 @@ const ServiceComp = () => {
                     </div>
 
                     <div className="bg-gray-100 p-[10px] w-full rounded-[5px] mt-[13px]">
-                        <p className="text-gray-400 text-[9.5px] font-light ">🇳🇬 Proudly empowering organizations across Nigeria with tailored solutions for lasting impact.</p>
+                        <p className="text-gray-400 text-[9.5px] font-light max-md:text-[7px]">🇳🇬 Proudly empowering organizations across Nigeria with tailored solutions for lasting impact.</p>
                     </div>
                 </div>
 
