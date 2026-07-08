@@ -83,7 +83,7 @@ const Home = () => {
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[27px]'>what we do</h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px] max-md:max-w-none max-md:text-[16px] max-md:leading-[30px]'>
-                                We develop cutting-edge solutions tailored to your organization's unique needs.
+                                We develop cutting-edge solutions tailored to your organization's unique needss.
                             </p>
                         </div>
 
