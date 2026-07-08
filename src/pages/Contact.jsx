@@ -12,9 +12,9 @@ const Contact = () => {
       <section className='bg-black h-auto py-[50px]'>
         <div className="short-section">
           <div className="flex flex-col items-center text-center leading-[40px] w-full">
-            <span className='text-[var(--dark-orange)] font-[500] capitalize'>home/contact us</span>
-            <h3 className='text-white capitalize font-black text-[50px]'>contact Us</h3>
-            <p className='text-gray-400 font-light text-base leading-[25px] max-w-[600px] pt-[20px]'>
+            <span className='text-[var(--dark-orange)] font-[500] capitalize '>home/contact us</span>
+            <h3 className='text-white capitalize font-black text-[50px] max-md:text-[35px]'>contact Us</h3>
+            <p className='text-gray-400 font-light text-base leading-[25px] max-w-[600px] pt-[20px] max-md:leading-[20px]'>
               Have questions, ideas, or projects? Our team is ready to help            </p>
           </div>
         </div>
@@ -23,10 +23,10 @@ const Contact = () => {
 
       <section className="bg-black h-auto pt-[10px] pb-[80px]">
         <div className="short-section">
-          <div className="flex gap-[30px] items-center justify-center h-auto">
-            <div className='w-[50%] flex flex-col gap-[5px] h-full'>
+          <div className="flex gap-[30px] items-center justify-center h-auto max-md:flex-col max-md:gap-[50px] max-md:border-0">
+            <div className='w-[50%] flex flex-col gap-[5px] h-full max-md:w-[100%]'>
               <h3 className='text-white capitalize font-bold text-[25px]'>get in touch</h3>
-              <p className='text-gray-400 font-light text-[16px] leading-[20px]'>Every great inovation starts with a conversation</p>
+              <p className='text-gray-400 font-light text-[16px] leading-[20px] max-md:text-[16px]'>Every great inovation starts with a conversation</p>
 
               <div className="flex flex-col w-full gap-[16px] mt-[15px]">
 
@@ -37,8 +37,8 @@ const Contact = () => {
 
                     </div>
                     <div className="flex flex-col">
-                      <h3 className='text-white capitalize font-bold text-[16px]'>Email Us</h3>
-                      <p className='text-gray-400 font-light text-xs leading-[20px]'>cs@sovereigntechltd.com</p>
+                      <h3 className='text-white capitalize font-bold text-[16px] max-md:text-[18px]'>Email Us</h3>
+                      <p className='text-gray-400 font-light text-xs leading-[20px] max-md:text-[16px]'>cs@sovereigntechltd.com</p>
 
                     </div>
 
@@ -54,8 +54,8 @@ const Contact = () => {
 
                     </div>
                     <div className="flex flex-col">
-                      <h3 className='text-white capitalize font-bold text-[16px]'>Call Us</h3>
-                      <p className='text-gray-400 font-light text-xs leading-[20px]'>+2349159855709</p>
+                      <h3 className='text-white capitalize font-bold text-[16px] max-md:text-[18px]'>Call Us</h3>
+                      <p className='text-gray-400 font-light text-xs leading-[20px] max-md:text-[16px]'>+2349159855709</p>
 
                     </div>
 
@@ -71,8 +71,8 @@ const Contact = () => {
 
                     </div>
                     <div className="flex flex-col">
-                      <h3 className='text-white capitalize font-bold text-[16px]'>Email Us</h3>
-                      <p className='text-gray-400 font-light text-xs leading-[20px]'>cs@sovereigntechltd.com</p>
+                      <h3 className='text-white capitalize font-bold text-[16px] max-md:text-[18px]'>Email Us</h3>
+                      <p className='text-gray-400 font-light text-xs leading-[20px] max-md:text-[16px]'>cs@sovereigntechltd.com</p>
 
                     </div>
 
@@ -88,8 +88,8 @@ const Contact = () => {
 
                     </div>
                     <div className="flex flex-col">
-                      <h3 className='text-white capitalize font-bold text-[16px]'>Location 2</h3>
-                      <p className='text-gray-400 font-light text-xs leading-[20px]'>1703 Rockhill Rd, #6311, McKinney TX75069, U.S.A</p>
+                      <h3 className='text-white capitalize font-bold text-[16px] max-md:text-[18px]'>Location 2</h3>
+                      <p className='text-gray-400 font-light text-xs leading-[20px] max-md:text-[16px]'>1703 Rockhill Rd, #6311, McKinney TX75069, U.S.A</p>
 
                     </div>
 
@@ -102,7 +102,7 @@ const Contact = () => {
 
             </div>
 
-            <div className="flex-1 flex flex-col items-center h-full p-[25px] border-[0.1px] border-gray-700 rounded-[10px]">
+            <div className="flex-1 flex flex-col items-center h-full p-[25px] border-[0.1px] border-gray-700 rounded-[10px] max-md:w-[100%]">
               <form action="" className='flex flex-col gap-[18px] w-full'>
                 <input type="text" name="" id="" placeholder='Name' className='bg-gray-900 w-full p-[15px] text-gray-100 rounded-[10px] outline-none' />
                 <input type="email" name="" id="" placeholder='Email' className='bg-gray-900 w-full p-[15px] text-gray-100 rounded-[10px] outline-none' />
