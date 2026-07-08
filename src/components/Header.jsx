@@ -7,7 +7,7 @@ const Header = () => {
 
     //check if the link is active using the props.isActive but destructured
     const navLinkClass = ({ isActive }) =>
-        `py-[4px] px-[15px] rounded-[35px] font-light transition-all duration-300 
+        `py-[7px] px-[13px] rounded-[35px] text-[14px] font-light transition-all duration-300 
     ${isActive ? "bg-[var(--dark-purple)] text-white" : "text-gray-300 hover:text-white" }`;
 
     return (
@@ -36,7 +36,7 @@ const Header = () => {
                         </NavLink>
                     </nav>
 
-                    <Link to='/contact-us' className="group text-gray-200 inline-flex items-center gap-2 bg-[var(--dark-purple)] py-[7px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer">
+                    <Link to='/contact-us' className="group text-[14px] text-gray-200 inline-flex items-center gap-2 bg-[var(--dark-purple)] py-[7px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer">
                         <span className="group-hover:text-white">Book a Call</span>
                         <FontAwesomeIcon icon={['fas', 'arrow-right']} className="group-hover:text-white" size="xs" />
                     </Link>
