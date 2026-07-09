@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import logo from "../images/pictures/sovereign-logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useLocation } from "react-router-dom";
 
+
+const links = [
+    { path: "/", label: "Home" },
+    { path: "/about", label: "Who We Are" },
+    { path: "/services", label: "What We Do" },
+    { path: "/products", label: "Our products" },
+]
 const Header = () => {
 
     //check if the link is active using the props.isActive but destructured
@@ -11,6 +18,7 @@ const Header = () => {
     ${isActive ? "bg-[var(--dark-purple)] text-white" : "text-gray-300 hover:text-white"}`;
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const location = useLocation();
 
     return (
         <div>
@@ -51,18 +59,22 @@ const Header = () => {
                 </div>
 
                 <div className={`mobile-nav border-gray-600 border-[0.1px] p-[15px] rounded-[15px] flex flex-col gap-[2px] transition-all duration-500 ease-in-out hidden ${isMenuOpen ? "max-h-[1000px] opacity-100 max-lg:m-[10px] max-lg:flex" : "max-h-[0px] opacity-0"}`}>
-                    <Link to='/' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">home</Link>
-                    <Link to='/about' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">who we are</Link>
-                    <Link to='/services' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">what we do</Link>
-                    <Link to='/products' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">our products</Link>
+                    {links.map((link) => {
+                        const isLocationActive = location.pathname === link.path
+                        return (
+                            < Link key={link.path} to={link.path} className={`capitalize text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white ${isLocationActive ? "bg-[var(--dark-purple)]" : "bg-transparent"}`}
+                            > {link.label}</Link>
+                        )
+
+                    })}
                     <Link to='/contact-us' className="mt-[5px] group text-[14px] text-gray-300 flex items-center justify-center gap-2 bg-[var(--dark-purple)] py-[10px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer">
                         <span className="group-hover:text-white">Book a Call</span>
                         <FontAwesomeIcon icon={['fas', 'arrow-right']} className="group-hover:text-white" size="xs" />
                     </Link>
 
                 </div>
-            </section>
-        </div>
+            </section >
+        </div >
     );
 };
 
