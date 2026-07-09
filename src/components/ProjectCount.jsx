@@ -5,7 +5,7 @@ const ProjectCount = () => {
     <div>
       <section className="w-full bg-black py-[50px]">
         <div className="short-section bg-black h-auto pt-[50px] max-md:pt-[30px]">
-          <div className="grid grid-cols-4 gap-[60px] max-md:grid-cols-1">
+          <div className="grid grid-cols-4 gap-[60px] max-md:grid-cols-1 max-lg:grid-cols-2">
             <div className='flex flex-col gap-[2px]'>
               <h3 className='num-count text-white font-black text-[50px]'>2,020</h3>
               <div className="flex flex-col gap-[5px] max-md:gap-[12px]">

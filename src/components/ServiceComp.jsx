@@ -15,14 +15,14 @@ const ServiceComp = () => {
                         Partner with our experts to create a workplace that thrives.
                     </span>
                     {/* the icons of identify, develop, implement etc*/}
-                    <div className="grid grid-cols-6 mt-[20px] max-md:grid-cols-3 max-md:gap-[20px]">
+                    <div className="grid grid-cols-6 mt-[20px] max-md:grid-cols-3 max-lg:gap-[20px]">
                         {/* magnifying glass*/}
 
                         <div className="flex flex-col gap-[3px] items-center justify-center">
                             <div className="group rounded-[50%] bg-gray-100 w-[40px] h-[40px] flex items-center justify-center">
                                 <FontAwesomeIcon icon={['fas', 'magnifying-glass']} size="sm" className='text-blue-600 font-light' />
                             </div>
-                            <p className='text-black font-bold capitalize text-[12px]'>identify</p>
+                            <p className='text-black font-bold capitalize text-[12px] max-lg:text-[9px]'>identify</p>
 
                             <span className="text-gray-400 text-[8px] font-light text-center">
                                 We assess your unique challenges and goals.
@@ -34,7 +34,7 @@ const ServiceComp = () => {
                             <div className="group rounded-[50%] bg-gray-100 w-[40px] h-[40px] flex items-center justify-center">
                                 <FontAwesomeIcon icon={['fas', 'lightbulb']} size="sm" className='text-blue-600 font-light' />
                             </div>
-                            <p className='text-black font-bold capitalize text-[12px]'>develop</p>
+                            <p className='text-black font-bold capitalize text-[12px] max-lg:text-[9px]'>develop</p>
 
                             <span className="text-gray-400 text-[8px] font-light text-center">
                                 We assess your unique challenges and goals.
@@ -45,7 +45,7 @@ const ServiceComp = () => {
                             <div className="group rounded-[50%] bg-gray-100 w-[40px] h-[40px] flex items-center justify-center">
                                 <FontAwesomeIcon icon={['fas', 'gear']} size="sm" className='text-blue-600 font-light' />
                             </div>
-                            <p className='text-black font-bold capitalize text-[12px]'>implement</p>
+                            <p className='text-black font-bold capitalize text-[12px] max-lg:text-[9px]'>implement</p>
 
                             <span className="text-gray-400 text-[8px] font-light text-center">
                                 We assess your unique challenges and goals.
@@ -57,7 +57,7 @@ const ServiceComp = () => {
                             <div className="group rounded-[50%] bg-gray-100 w-[40px] h-[40px] flex items-center justify-center">
                                 <FontAwesomeIcon icon={['fas', 'chart-column']} size="sm" className='text-blue-600 font-light' />
                             </div>
-                            <p className='text-black font-bold capitalize text-[12px]'>monitor</p>
+                            <p className='text-black font-bold capitalize text-[12px] max-lg:text-[9px]'>monitor</p>
 
                             <span className="text-gray-400 text-[8px] font-light text-center">
                                 We assess your unique challenges and goals.
@@ -69,7 +69,7 @@ const ServiceComp = () => {
                             <div className="group rounded-[50%] bg-gray-100 w-[40px] h-[40px] flex items-center justify-center">
                                 <FontAwesomeIcon icon={['fas', 'spiral']} size="sm" className='text-blue-600 font-light' />
                             </div>
-                            <p className='text-black font-bold capitalize text-[12px]'>adjust</p>
+                            <p className='text-black font-bold capitalize text-[12px] max-lg:text-[9px]'>adjust</p>
 
                             <span className="text-gray-400 text-[8px] font-light text-center">
                                 We assess your unique challenges and goals.
@@ -81,7 +81,7 @@ const ServiceComp = () => {
                             <div className="group rounded-[50%] bg-gray-100 w-[40px] h-[40px] flex items-center justify-center">
                                 <FontAwesomeIcon icon={['fas', 'spiral']} size="sm" className='text-blue-600 font-light' />
                             </div>
-                            <p className='text-black font-bold capitalize text-[12px]'>result</p>
+                            <p className='text-black font-bold capitalize text-[12px] max-lg:text-[9px]'>result</p>
 
                             <span className="text-gray-400 text-[8px] font-light text-center">
                                 We assess your unique challenges and goals.

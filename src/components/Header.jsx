@@ -18,7 +18,7 @@ const Header = () => {
                         <img src={logo} alt="" className="w-full h-full object-cover" />
                     </div>
 
-                    <nav className="py-2 px-2 flex items-center gap-[12px] border-gray-800  bg-[var(--dark-blue2)] border-[1px] rounded-[35px] capitalize w-auto max-md:hidden">
+                    <nav className="py-2 px-2 flex items-center gap-[12px] border-gray-800  bg-[var(--dark-blue2)] border-[1px] rounded-[35px] capitalize w-auto max-md:hidden max-lg:hidden">
                         <NavLink to="/" className={navLinkClass}>
                             home
                         </NavLink>
@@ -36,17 +36,17 @@ const Header = () => {
                         </NavLink>
                     </nav>
 
-                    <Link to='/contact-us' className="group text-[14px] text-gray-200 inline-flex items-center gap-2 bg-[var(--dark-purple)] py-[7px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer max-md:hidden">
+                    <Link to='/contact-us' className="group text-[14px] text-gray-200 inline-flex items-center gap-2 bg-[var(--dark-purple)] py-[7px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer max-md:hidden max-lg:hidden">
                         <span className="group-hover:text-white">Book a Call</span>
                         <FontAwesomeIcon icon={['fas', 'arrow-right']} className="group-hover:text-white" size="xs" />
                     </Link>
 
-                    <div className="border-[0.1px] flex items-center justify-center w-[40px] h-[40px] border-gray-800 text-white rounded-[10px] cursor-pointer hidden max-md:flex ">
+                    <div className="border-[0.1px] flex items-center justify-center w-[40px] h-[40px] border-gray-800 text-white rounded-[10px] cursor-pointer hidden max-lg:flex">
                         <FontAwesomeIcon icon={['fas', 'bars']} className="text-white text-[18px]" />
                     </div>
                 </div>
 
-                <div className="mobile-nav border-gray-600 border-[0.1px] p-[15px] m-[15px] rounded-[15px] flex flex-col gap-[2px] hidden max-md:flex">
+                <div className="mobile-nav border-gray-600 border-[0.1px] p-[15px] m-[15px] rounded-[15px] flex flex-col gap-[2px] hidden max-lg:flex max-lg:flex">
                     <Link to='/' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">home</Link>
                     <Link to='/about' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">who we are</Link>
                     <Link to='/services' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">what we do</Link>

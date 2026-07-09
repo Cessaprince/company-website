@@ -35,7 +35,7 @@ const Service = () => {
 
 
                             {/* problem identifcation */}
-                            <div className='flex gap-[30px] h-auto service-blue-box border-[0.1px] rounded-[15px] border-gray-800 p-[40px] items-center max-md:flex-col'>
+                            <div className='flex gap-[30px] h-auto service-blue-box border-[0.1px] rounded-[15px] border-gray-700 p-[40px] items-center max-md:flex-col max-lg:p-[25px]'>
                                 <div className='w-[50%] flex flex-col gap-[20px] max-md:w-[100%]'>
                                     <span className="font-light text-gray-300 bg-gray-800 border-[1px] border-gray-500 rounded-full py-[4px] px-[15px] w-fit capitalize max-md:text-[12px]">
                                         problem identification
@@ -57,7 +57,7 @@ const Service = () => {
                             </div>
 
                             {/* consultation */}
-                            <div className='flex gap-[30px] h-auto service-blue-box border-[0.1px] rounded-[15px] border-gray-800 p-[40px] items-center max-md:flex-col'>
+                            <div className='flex gap-[30px] h-auto service-blue-box border-[0.1px] rounded-[15px] border-gray-800 p-[40px] items-center max-md:flex-col max-lg:p-[25px]'>
 
                                 <div className="flex-1 max-md:order-1">
                                     <ServiceComp />
@@ -81,7 +81,7 @@ const Service = () => {
 
 
                             {/* work-place wellbeing */}
-                            <div className='flex gap-[30px] h-auto service-blue-box border-[0.1px] rounded-[15px] border-gray-800 p-[40px] items-center max-md:flex-col'>
+                            <div className='flex gap-[30px] h-auto service-blue-box border-[0.1px] rounded-[15px] border-gray-800 p-[40px] items-center max-md:flex-col max-lg:p-[25px]'>
                                 <div className='w-[50%] flex flex-col gap-[20px] max-md:w-[100%]'>
                                     <span className="font-light text-gray-300 bg-gray-800 border-[1px] border-gray-500 rounded-full py-[4px] px-[15px] w-fit capitalize max-md:text-[12px]">
                                         problem identification
@@ -103,7 +103,7 @@ const Service = () => {
                             </div>
 
                             {/* partnership */}
-                            <div className='flex gap-[30px] h-auto service-blue-box border-[0.1px] rounded-[15px] border-gray-800 p-[40px] items-center max-md:flex-col'>
+                            <div className='flex gap-[30px] h-auto service-blue-box border-[0.1px] rounded-[15px] border-gray-800 p-[40px] items-center max-md:flex-col max-lg:p-[25px]'>
 
                                 <div className="flex-1 max-md:order-1">
                                     <ServiceComp />

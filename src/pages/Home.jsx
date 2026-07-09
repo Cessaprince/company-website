@@ -47,16 +47,16 @@ const Home = () => {
                                     <h3 className='font-bold capitalize text-[35px] text-white max-md:text-[30px]'><span className='text-gray-400'>more than</span> technology.</h3>
                                     <h3 className='font-[500] text-[28px] text-white max-md:text-[24px]'>We Bring Clarity to Decisions</h3>
                                 </div>
-                                <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[70%] max-md:max-w-[100%] max-md:leading-[25px] max-md:text-[18px]'>We develop cutting-edge solutions tailored to your organization's unique needs. At <i className='text-[var(--dark-orange)]'>Sovereign Tech </i>and Innovations, we help your business to the next levelfor cutting-edge solutions</p>
+                                <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[70%] max-lg:max-w-[100%] max-md:leading-[25px]  max-md:text-[18px]'>We develop cutting-edge solutions tailored to your organization's unique needs. At <i className='text-[var(--dark-orange)]'>Sovereign Tech </i>and Innovations, we help your business to the next level.</p>
 
-                                <div className='leading-[35px] max-md:leading-[30px]'>
-                                    <p className='text-white font-light text-normal max-md:text-[18px]'>We don't sell off-the-shelf products.</p>
-                                    <p className='text-white font-light text-normal max-md:text-[18px]'>We work alongside teams to solve real business problems.</p>
+                                <div className='leading-[35px] max-md:leading-[30px] max-lg:leading-[25px]'>
+                                    <p className='text-gray-200 font-light text-normal max-md:text-[18px]'>We don't sell off-the-shelf products.</p>
+                                    <p className='text-gray-200 font-light text-normal max-md:text-[18px]'>We work alongside teams to solve real business problems.</p>
                                 </div>
 
                                 <div className="flex gap-[20px] py-[30px] max-md:flex-col">
-                                    <p className='text-gray-400 font-light text-normal leading-[20px] capitalize max-md:text-[16px]'>who we are</p>
-                                    <p className='text-white font-light text-normal leading-[20px] max-w-[70%] max-md:max-w-[100%] max-md:text-[18px] max-md:leading-[30px]'>Sovereign Tech & Innovations was founded on a simple belief: technology should empower progress, not complicate it. Guided by experienced professionals, we focus on delivering solutions rooted in clarity, innovation, and trust — helping organizations grow, adapt, and lead with confidence.</p>
+                                    <p className='text-gray-400 font-light text-normal leading-[20px] capitalize max-md:text-[16px] max-lg:w-[50%]'>who we are</p>
+                                    <p className='text-gray-200 font-light text-normal leading-[20px] max-w-[70%] max-lg:max-w-[100%] max-md:text-[18px] max-md:leading-[30px]'>Sovereign Tech & Innovations was founded on a simple belief: technology should empower progress, not complicate it. Guided by experienced professionals, we focus on delivering solutions rooted in clarity, innovation, and trust — helping organizations grow, adapt, and lead with confidence.</p>
 
                                 </div>
 
@@ -126,15 +126,15 @@ const Home = () => {
                         <div className="w-full overflow-x-auto">
                             <div className="flex items-stretch gap-[30px] my-[50px]">
 
-                                <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden max-md:min-w-[150%] max-md:max-w-[150%] max-md:h-[300px]">
+                                <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden max-md:min-w-[150%] max-md:max-w-[150%] max-md:h-[300px] max-lg:min-w-[60%] max-lg:max-w-[60%]">
                                     <img src={foodbankImg} alt="" className='w-full h-full object-cover' />
                                 </div>
 
-                                <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden max-md:min-w-[150%] max-md:max-w-[150%] max-md:h-[300px]">
+                                <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden max-md:min-w-[150%] max-md:max-w-[150%] max-md:h-[300px] max-lg:min-w-[60%] max-lg:max-w-[60%]">
                                     <img src={goShortletImg} alt="" className='w-full h-full object-cover' />
                                 </div>
 
-                                <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden max-md:min-w-[150%] max-md:max-w-[150%] max-md:h-[300px]">
+                                <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden max-md:min-w-[150%] max-md:max-w-[150%] max-md:h-[300px] max-lg:min-w-[60%] max-lg:max-w-[60%]">
                                     <img src={foodbankImg} alt="" className='w-full h-full object-cover' />
                                 </div>
 
@@ -146,8 +146,8 @@ const Home = () => {
 
                 <section className='bg-black h-auto w-full py-[100px]'>
                     <div className="short-section flex gap-[50px] max-md:flex-col">
-                        <div className="flex flex-col gap-2 max-w-[600px] gap-[20px]">
-                            <h3 className='text-white capitalize font-bold text-[30px] leading-[40px] max-md:text-[24px] max-md:leading-[3=50px]'>Expertise Without Borders: Collaborate with Us</h3>
+                        <div className="flex flex-col gap-2 max-w-[600px] gap-[20px] max-lg:max-w-[45%]">
+                            <h3 className='text-white capitalize font-bold text-[30px] leading-[40px] max-md:text-[24px] max-md:leading-[3=50px] max-lg:text-[34px]'>Expertise Without Borders: Collaborate with Us</h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[400px] max-md:text-[18px] max-md:leading-[30px] max-md:max-w-[100%]'>We develop cutting-edge solutions tailored to your organization's unique needs.</p>
                         </div>
 
@@ -218,7 +218,7 @@ const Home = () => {
 
                         <div className='w-full overflow-x-auto'>
                             <div className="flex items-stretch gap-[20px] my-[40px]">
-                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[90%] max-md:max-w-[90%]">
+                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[90%] max-md:max-w-[90%] max-lg:min-w-[40%] max-lg:max-w-[40%]">
                                     <Link
                                         className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
                                         <FontAwesomeIcon
@@ -230,7 +230,7 @@ const Home = () => {
                                     <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                                 </div>
-                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[90%] max-md:max-w-[90%]">
+                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[90%] max-md:max-w-[90%] max-lg:min-w-[40%] max-lg:max-w-[40%]">
                                     <Link
                                         className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
                                         <FontAwesomeIcon
@@ -242,7 +242,7 @@ const Home = () => {
                                     <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                                 </div>
-                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[90%] max-md:max-w-[90%]">
+                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[90%] max-md:max-w-[90%] max-lg:min-w-[40%] max-lg:max-w-[40%]">
                                     <Link
                                         className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
                                         <FontAwesomeIcon
@@ -254,7 +254,7 @@ const Home = () => {
                                     <p className='text-gray-400 text-sm font-light text-normal leading-[24px]'>We start by identifying real-world challenges faced by employees and employers, conducting in-depth research and market analysis to pinpoint pain points and unmet needs.</p>
 
                                 </div>
-                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[90%] max-md:max-w-[90%]">
+                                <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[90%] max-md:max-w-[90%] max-lg:min-w-[40%] max-lg:max-w-[40%]">
                                     <Link
                                         className="group h-[50px] w-[50px] rounded-full border border-[var(--dark-orange)] bg-[var(--lighter-orange)] flex items-center justify-center">
                                         <FontAwesomeIcon

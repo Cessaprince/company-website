@@ -34,11 +34,11 @@ const About = () => {
                                 <p className='text-gray-400 font-light text-[15px] leading-[20px] max-md:text-[12px]'>We envision a future where essential resources are effortlessly accessible, and workplaces are hubs of contentment and productivity. In our steadfast pursuit of this vision, we aim to lead as trailblazers, setting new standards with groundbreaking solutions that not only redefine the modern workplace but also inspire a broader global transformation toward a more empowered, fulfilled workforce.</p>
                             </div>
 
-                            <div className="flex-1 w-full relative max-md:w-[100%] max-md:flex">
-                                <div className='w-[500px] h-[250px] rounded-[15px] overflow-hidden relative max-md max-md:w-full'>
+                            <div className="flex-1 w-full relative max-md:w-[100%] max-md:flex max-lg:w-[35%]">
+                                <div className='w-[500px] h-[250px] rounded-[15px] overflow-hidden relative max-md max-lg:w-full'>
                                     <img src={aboutUs} alt="" className='w-full h-full object-cover' />
                                 </div>
-                                <div className='w-[400px] h-[250px] rounded-[15px] overflow-hidden border-[6px] border-[var(--dark-blue2)] absolute top-[35%] left-[30%] max-md:hidden'>
+                                <div className='w-[400px] h-[250px] rounded-[15px] overflow-hidden border-[6px] border-[var(--dark-blue2)] absolute top-[35%] left-[30%] max-md:hidden max-lg:w-[250px] max-lg:left-[30%] max-lg:top-[30%]'>
                                     <img src={aboutUs} alt="" className='w-full h-full object-cover' />
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ const About = () => {
                                 <span className="font-light text-gray-300 bg-gray-800 border-[1px] border-gray-500 rounded-full py-[4px] px-[15px] w-fit capitalize max-md:text-[12px]">
                                     our mission
                                 </span>
-                                <h3 className='text-white capitalize font-bold text-[25px] leading-[40px] max-md:text-[14px] max-md:leading-[20px]'>sovereign's commitment & mission</h3>
+                                <h3 className='text-white capitalize font-bold text-[25px] leading-[40px] max-md:text-[14px] max-md:leading-[20px] max-lg:leading-[30px] max-lg:text-[20px]'>sovereign's commitment & mission</h3>
                                 <p className='text-gray-400 font-light text-[15px] leading-[20px] max-md:text-[10px] '>At Sovereign Technology and Innovation Limited, our mission is to transform the lives of working individuals by harnessing the power of technology to address real-world challenges. We are committed to providing innovative solutions that enhance workplace well-being and convenience. Our focus on helping salary earners access essential resources, like food, reflects our dedication to making a meaningful impact on their lives.</p>
                             </div>
 
@@ -62,7 +62,7 @@ const About = () => {
                                 <span className="font-light text-gray-300 bg-gray-800 border-[1px] border-gray-500 rounded-full py-[4px] px-[15px] w-fit capitalize max-md:text-[12px] ">
                                     our vision
                                 </span>
-                                <h3 className='text-white capitalize font-bold text-[25px] leading-[40px] max-md:text-[14px] max-md:leading-[20px]'>sovereign's vision for excellence</h3>
+                                <h3 className='text-white capitalize font-bold text-[25px] leading-[40px] max-md:text-[14px] max-md:leading-[20px] max-lg:leading-[30px] max-lg:text-[20px]'>sovereign's vision for excellence</h3>
                                 <p className='text-gray-400 font-light text-[15px] leading-[20px] max-md:text-[10px] '>Our vision at Sovereign Technology and Innovation Limited is to be a pioneering force in the field of technology-driven employee benefits, forever changing the landscape of workplace well-being. We aspire to be recognized as the go-to provider for convenient, innovative solutions that empower individuals and employers alike. With relentless dedication to problem-solving and a commitment to excellence, we aim to positively influence the working world's future, one innovative solution at a time.</p>
                             </div>
                         </div>

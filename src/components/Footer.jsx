@@ -8,8 +8,8 @@ const Footer = () => {
         <div>
             <section className='bg-black py-[50px] h-auto w-full border-t-[0.1px] border-gray-800'>
                 <div className="short-section">
-                    <div className='flex gap-[25px] max-md:flex-col max-md:gap-[35px]'>
-                        <div className="flex flex-col w-[25%] gap-[10px] max-md:w-[100%]">
+                    <div className='grid grid-cols-4 gap-[25px] max-md:grid-cols-1 max-md:gap-[35px] max-lg:grid-cols-2 max-lg:gap-[50px]'>
+                        <div className="flex flex-col gap-[10px] max-md:w-[100%]">
                             <div className='h-[30px] w-[30px] overflow-hidden'>
                                 <img src={logo} alt="" className='w-full h-full object-cover' />
                             </div>
@@ -17,7 +17,7 @@ const Footer = () => {
                             <p className='text-gray-400 text-sm font-light text-normal leading-[24px] max-md:w-full max-md:text-[12px]'>At Sovereign Technology and Innovation Limited, we leverage technology and innovation to create powerful digital solutions that transform businesses, optimize processes, and unlock new opportunities for growth in the digital economy.</p>
 
                         </div>
-                        <div className="flex flex-col w-[25%] gap-[10px] max-md:w-[75%]">
+                        <div className="flex flex-col gap-[10px] max-md:w-[75%]">
 
                             <h3 className='font-bold text-[var(--dark-orange)] capitalize text-[18px]'>useful links</h3>
                             <Link to='' className='text-gray-400 text-sm font-light text-normal leading-[24px] capitalize hover:text-white max-md:text-[12px]'>who we are</Link>
@@ -26,14 +26,14 @@ const Footer = () => {
 
                         </div>
 
-                        <div className="flex flex-col w-[25%] gap-[10px] max-md:w-[75%]">
+                        <div className="flex flex-col gap-[10px] max-md:w-[75%]">
 
                             <h3 className='font-bold text-[var(--dark-orange)] capitalize text-[18px]'>help</h3>
                             <Link to='/contact' className='text-gray-400 text-sm font-light text-normal leading-[24px] capitalize hover:text-white max-md:text-[12px]'>contact us</Link>
                             <Link to='' className='text-gray-400 text-sm font-light text-normal leading-[24px] capitalize hover:text-white max-md:text-[12px]'>customer service</Link>
 
                         </div>
-                        <div className="flex-1 flex flex-col gap-[10px] max-md:w-[100%]">
+                        <div className="flex flex-col gap-[10px] max-md:w-[100%]">
 
                             <h3 className='font-bold text-[var(--dark-orange)] capitalize text-[18px] max-md:text-[12px]'>Connect with us</h3>
                             <p className='text-gray-400 text-sm font-light text-normal leading-[24px] max-md:text-[12px]'>G & M Place, Igbo-Efon, Lekki, Lagos, Nigeria.</p>
