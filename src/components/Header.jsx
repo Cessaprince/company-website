@@ -50,7 +50,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className={`mobile-nav border-gray-600 border-[0.1px] p-[15px] rounded-[15px] flex flex-col gap-[2px] transition-all duration-500 ease-in-out hidden ${isMenuOpen ? "max-h-[1000px] opacity-100 max-lg:flex" : "max-h-[0px] opacity-0"}`}>
+                <div className={`mobile-nav border-gray-600 border-[0.1px] p-[15px] rounded-[15px] flex flex-col gap-[2px] transition-all duration-500 ease-in-out hidden ${isMenuOpen ? "max-h-[1000px] opacity-100 max-lg:m-[10px] max-lg:flex" : "max-h-[0px] opacity-0"}`}>
                     <Link to='/' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">home</Link>
                     <Link to='/about' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">who we are</Link>
                     <Link to='/services' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">what we do</Link>
