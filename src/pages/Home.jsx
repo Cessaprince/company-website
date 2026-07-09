@@ -146,8 +146,8 @@ const Home = () => {
 
                 <section className='bg-black h-auto w-full py-[100px]'>
                     <div className="short-section flex gap-[50px] max-md:flex-col">
-                        <div className="flex flex-col gap-2 max-w-[600px] gap-[20px] max-lg:max-w-[45%]">
-                            <h3 className='text-white capitalize font-bold text-[30px] leading-[40px] max-md:text-[24px] max-md:leading-[3=50px] max-lg:text-[34px]'>Expertise Without Borders: Collaborate with Us</h3>
+                        <div className="flex flex-col gap-2 max-w-[600px] gap-[20px] max-lg:max-w-[45%] max-md:max-w-[100%]">
+                            <h3 className='text-white capitalize font-bold text-[30px] leading-[40px] max-md:text-[24px] max-md:leading-[35px] max-lg:text-[34px]'>Expertise Without Borders: Collaborate with Us</h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[400px] max-md:text-[18px] max-md:leading-[30px] max-md:max-w-[100%]'>We develop cutting-edge solutions tailored to your organization's unique needs.</p>
                         </div>
 
