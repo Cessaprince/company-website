@@ -32,13 +32,20 @@ section {
 }
 
 .short-section{
-  width: 80%;
+  width: 90%;
   max-width: 1280px;
   margin: auto;
 }
 
+@media (max-width:768px) {
+  .header .short-section {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
 #main-home{
-  background: radial-gradient(circle at 50% 0%, var(--dark-purple), transparent 70%), black;
+  background: linear-gradient(var(--dark-purple), black);
 }
 
 
