@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../images/pictures/sovereign-logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink, Link } from "react-router-dom";
@@ -9,6 +9,8 @@ const Header = () => {
     const navLinkClass = ({ isActive }) =>
         `py-[7px] px-[13px] rounded-[35px] text-[14px] font-light transition-all duration-300 
     ${isActive ? "bg-[var(--dark-purple)] text-white" : "text-gray-300 hover:text-white"}`;
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
         <div>
@@ -41,12 +43,14 @@ const Header = () => {
                         <FontAwesomeIcon icon={['fas', 'arrow-right']} className="group-hover:text-white" size="xs" />
                     </Link>
 
-                    <div className="border-[0.1px] flex items-center justify-center w-[40px] h-[40px] border-gray-800 text-white rounded-[10px] cursor-pointer hidden max-lg:flex">
-                        <FontAwesomeIcon icon={['fas', 'bars']} className="text-white text-[18px]" />
+                    <div onClick={() => setIsMenuOpen(prev => !prev)} className="border-[0.1px] flex items-center justify-center w-[40px] h-[40px] border-gray-800 text-white rounded-[10px] cursor-pointer hidden max-lg:flex">
+                        {isMenuOpen ? <FontAwesomeIcon icon={['fas', 'xmark']} className="text-white text-[18px]" />
+                            : <FontAwesomeIcon icon={['fas', 'bars']} className="text-white text-[18px]" />
+                        }
                     </div>
                 </div>
 
-                <div className="mobile-nav border-gray-600 border-[0.1px] p-[15px] m-[15px] rounded-[15px] flex flex-col gap-[2px] hidden max-lg:flex max-lg:flex">
+                <div className={`mobile-nav border-gray-600 border-[0.1px] p-[15px] rounded-[15px] flex flex-col gap-[2px] transition-all duration-500 ease-in-out hidden max-lg:flex max-lg:flex ${isMenuOpen ? "max-h-[1000px] opacity-100" : "max-h-[0px] opacity-0"}`}>
                     <Link to='/' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">home</Link>
                     <Link to='/about' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">who we are</Link>
                     <Link to='/services' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">what we do</Link>
