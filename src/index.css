@@ -45,7 +45,7 @@ section {
 }
 
 #main-home{
-  background: linear-gradient(var(--dark-purple), black);
+  background: linear-gradient(var(--dark-blue), black), black;
 }
 
 
