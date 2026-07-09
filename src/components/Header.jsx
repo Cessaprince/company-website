@@ -51,7 +51,7 @@ const Header = () => {
                     <Link to='/about' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">who we are</Link>
                     <Link to='/services' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">what we do</Link>
                     <Link to='/products' className="capitalize  text-gray-300 py-[15px] px-[20px] w-full rounded-[15px] hover:bg-blue-700 hover:text-white">our products</Link>
-                    <Link to='/contact-us' className="group text-[14px] text-gray-300 flex items-center justify-center gap-2 bg-[var(--dark-purple)] py-[10px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer">
+                    <Link to='/contact-us' className="mt-[5px] group text-[14px] text-gray-300 flex items-center justify-center gap-2 bg-[var(--dark-purple)] py-[10px] px-[20px] rounded-[35px] hover:bg-[var(--light-purple2)] cursor-pointer">
                         <span className="group-hover:text-white">Book a Call</span>
                         <FontAwesomeIcon icon={['fas', 'arrow-right']} className="group-hover:text-white" size="xs" />
                     </Link>
