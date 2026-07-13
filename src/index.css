@@ -69,3 +69,12 @@ h1,h2,h3,h4{
 p, span, a{
   font-family: Plus Jakarta Sans, system-ui, sans-serif !important;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
+}

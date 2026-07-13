@@ -123,7 +123,7 @@ const Home = () => {
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px] max-md:text-[16px] max-md:leading-[25px] max-md:max-w-[100%]'>Partner with our experts to create a workplace that thrives. We collaborate closely with you to understand your organization's unique challenges and goals, developing customized solutions that drive innovative strategies, measurable results, enhanced employee engagement,</p>
                         </div>
 
-                        <div className="w-full overflow-x-auto">
+                        <div className="w-full overflow-x-auto scrollbar-hide">
                             <div className="flex items-stretch gap-[30px] my-[50px]">
 
                                 <div className="h-[250px] min-w-[40%] max-w-[40%] border-gray-500 border-[0.1px] rounded-[10px] overflow-hidden max-md:min-w-[150%] max-md:max-w-[150%] max-md:h-[300px] max-lg:min-w-[60%] max-lg:max-w-[60%]">
@@ -216,7 +216,7 @@ const Home = () => {
 
 
 
-                        <div className='w-full overflow-x-auto'>
+                        <div className='w-full overflow-x-auto scrollbar-hide'>
                             <div className="flex items-stretch gap-[20px] my-[40px]">
                                 <div className="bg-gray min-w-[25%] max-w-[25%] hover:bg-[var(--dark-blue2)] cursor-pointer flex flex-col gap-[10px] border-gray-500 border-[0.1px] px-[30px] py-[30px] h-auto rounded-[10px] max-md:min-w-[90%] max-md:max-w-[90%] max-lg:min-w-[40%] max-lg:max-w-[40%]">
                                     <Link
