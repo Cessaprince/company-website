@@ -1,10 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const ProjectCount = () => {
   const [year, setYear] = useState(0);
   const [projects, setProjects] = useState(0);
   const [retention, setRetention] = useState(0);
   const [services, setServices] = useState(0);
+
+  const sectionRef = useRef(null);
+  const hasAnimated = useRef(false);
 
   useEffect(() => {
     const animateValue = (setter, endValue, duration = 1500) => {
@@ -25,15 +28,38 @@ const ProjectCount = () => {
       requestAnimationFrame(step);
     };
 
-    animateValue(setYear, 2020, 1500);
-    animateValue(setProjects, 10, 1500);
-    animateValue(setRetention, 95, 1500);
-    animateValue(setServices, 5, 1500);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasAnimated.current) {
+            hasAnimated.current = true;
+
+            animateValue(setYear, 2020, 1500);
+            animateValue(setProjects, 10, 1500);
+            animateValue(setRetention, 95, 1500);
+            animateValue(setServices, 5, 1500);
+
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.3 } // triggers when 30% of the section is visible
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
   }, []);
 
   return (
     <div>
-      <section className="w-full bg-black py-[50px]" data-aos="fade-up">
+      <section
+        ref={sectionRef}
+        className="w-full bg-black py-[50px]"
+        data-aos="fade-up"
+      >
         <div className="short-section bg-black h-auto pt-[50px] max-md:pt-[30px]">
           <div className="grid grid-cols-4 gap-[60px] max-md:grid-cols-1 max-lg:grid-cols-2">
 
