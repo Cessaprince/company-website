@@ -10,7 +10,7 @@ const Contact = () => {
 
 
       <section className='bg-black h-auto py-[50px]'>
-        <div className="short-section">
+        <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
           <div className="flex flex-col items-center text-center leading-[40px] w-full">
             <span className='text-[var(--dark-orange)] font-[500] capitalize '>home/contact us</span>
             <h3 className='text-white capitalize font-black text-[50px] max-md:text-[35px]'>contact Us</h3>
@@ -22,7 +22,7 @@ const Contact = () => {
 
 
       <section className="bg-black h-auto pt-[10px] pb-[80px]">
-        <div className="short-section">
+        <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
           <div className="flex gap-[30px] items-center justify-center h-auto max-md:flex-col max-md:gap-[50px] max-md:border-0">
             <div className='w-[50%] flex flex-col gap-[5px] h-full max-md:w-[100%]'>
               <h3 className='text-white capitalize font-bold text-[25px]'>get in touch</h3>
@@ -119,7 +119,7 @@ const Contact = () => {
 
       <section className='w-full bg-black py-[50px]'>
 
-        <div className="w-full h-[500px] rounded-[20px]">
+        <div className="w-full h-[500px] rounded-[20px]" data-aos='fade-up' data-aos-dealy='100'>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63419.198936570494!2d3.5079538252258358!3d6.55951072876325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf7adcc820dbb%3A0x81f4e8e53946869c!2sSovereign%20Technology%20and%20Innovations%20Limited!5e0!3m2!1sen!2sng!4v1783439099406!5m2!1sen!2sng"
             className='w-full h-full border-none'

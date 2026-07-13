@@ -14,7 +14,7 @@ const Service = () => {
                 <Header />
 
                 <section className='blue-box w-full py-[20px] h-auto'>
-                    <div className="short-section py-[30px]">
+                    <div className="short-section py-[30px]" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="flex flex-col gap-[5px] items-center text-center leading-[40px] w-full max-md:leading-[30px]">
                             <span className='text-[var(--dark-orange)] font-[500] capitalize'>home/services </span>
                             <h3 className='text-white capitalize font-black text-[50px] max-md:text-[35px]'>what we do</h3>
@@ -30,7 +30,7 @@ const Service = () => {
                 </section>
 
                 <section className="blue-box w-full pt-[30px] pb-[60px]">
-                    <div className="short-section">
+                    <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="grid grid-cols-1 gap-[30px]">
 
 

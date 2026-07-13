@@ -23,7 +23,7 @@ const Product = () => {
                 <Header />
 
                 <section className="blue-box">
-                    <div className="short-section text-white py-[50px]">
+                    <div className="short-section text-white py-[50px]" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="flex flex-col items-center text-center leading-[40px] w-full">
                             <span className='text-[var(--dark-orange)] font-[500] capitalize'>home/services</span>
                             <h3 className='text-white capitalize font-black text-[50px] max-md:text-[35px]'>our products</h3>
@@ -42,7 +42,7 @@ const Product = () => {
                 </section>
 
                 <section className='bg-black py-[50px]'>
-                    <div className="short-section flex flex-col gap-[40px]">
+                    <div className="short-section flex flex-col gap-[40px]" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="flex items-center justify-center gap-[40px] max-md:flex-col">
                             <div className="h-[500px] w-[50%] overflow-hidden max-md:w-[100%]">
                                 <img src={foodbankMobile} alt="" className='h-full w-full object-contain' />
@@ -91,7 +91,7 @@ const Product = () => {
 
 
                 <section className='bg-black py-[100px] max-md:py-[50px]'>
-                    <div className="short-section">
+                    <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
 
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white uppercase font-bold text-[40px] max-md:text-[20px]'>who our services/products are for</h3>

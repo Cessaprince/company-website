@@ -13,7 +13,7 @@ const About = () => {
                 <Header />
 
                 <section className='blue-box h-auto w-full'>
-                    <div className="short-section pt-[70px] pb-[120px]">
+                    <div className="short-section pt-[70px] pb-[120px]" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="flex flex-col items-center text-center leading-[40px] w-full">
                             <span className='text-[var(--dark-orange)] font-[500] capitalize'>home/about</span>
                             <h3 className='text-white capitalize font-black text-[50px] max-md:text-[27px]'>who we are</h3>
@@ -25,7 +25,7 @@ const About = () => {
                 </section>
 
                 <section className='blue-box h-auto w-full pt-[30px]'>
-                    <div className="short-section">
+                    <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="flex gap-[50px] pt-[30px] pb-[60px] max-md:flex-col ">
                             <div className="w-[50%] flex flex-col gap-[25px] max-md:w-[100%] max-md:gap-[15px]">
                                 <h3 className='text-white capitalize font-bold text-[30px] leading-[40px] max-md:text-[24px]'>everything about sovereign</h3>
@@ -48,7 +48,7 @@ const About = () => {
 
                 {/* Mission and Vision Grid Section */}
                 <section className='bg-black pt-[50px] w-full'>
-                    <div className="short-section">
+                    <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="grid grid-cols-2 pt-[70px] max-md:grid-cols-1">
                             <div className='bg-[var(--dark-blue2)] px-[30px] pt-[30px] pb-[35px] flex flex-col gap-[20px] border-[0.1px] rounded-tl-[15px] rounded-bl-[15px] border-gray-800 max-md:w-[100%] max-md:rounded-bl-[0px] max-md:rounded-tr-[15px]'>
                                 <span className="font-light text-gray-300 bg-gray-800 border-[1px] border-gray-500 rounded-full py-[4px] px-[15px] w-fit capitalize max-md:text-[12px]">

@@ -78,8 +78,8 @@ const Home = () => {
                     </div>
                 </main>
 
-                <section className='blue-box h-auto w-full py-[100px]' data-aos='fade-up' data-aos-dealy='150'>
-                    <div className="short-section">
+                <section className='blue-box h-auto w-full py-[100px]'>
+                    <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[27px]'>what we do</h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px] max-md:max-w-none max-md:text-[16px] max-md:leading-[30px]'>
@@ -115,8 +115,8 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className='bg-black h-auto w-full py-[100px]' data-aos='fade-up' data-aos-dealy='150'>
-                    <div className="short-section">
+                <section className='bg-black h-auto w-full py-[100px]'>
+                    <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
 
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[35px] max-md:text-[30px]'>product highlights</h3>
@@ -144,8 +144,8 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className='bg-black h-auto w-full py-[100px]' data-aos='fade-up' data-aos-dealy='150'>
-                    <div className="short-section flex gap-[50px] max-md:flex-col">
+                <section className='bg-black h-auto w-full py-[100px]'>
+                    <div className="short-section flex gap-[50px] max-md:flex-col" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="flex flex-col gap-2 max-w-[600px] gap-[20px] max-lg:max-w-[45%] max-md:max-w-[100%]">
                             <h3 className='text-white capitalize font-bold text-[30px] leading-[40px] max-md:text-[24px] max-md:leading-[35px] max-lg:text-[34px]'>Expertise Without Borders: Collaborate with Us</h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[400px] max-md:text-[18px] max-md:leading-[30px] max-md:max-w-[100%]'>We develop cutting-edge solutions tailored to your organization's unique needs.</p>
@@ -171,8 +171,8 @@ const Home = () => {
                 </section>
 
 
-                <section className='blue-box h-auto w-full py-[100px]' data-aos='fade-up' data-aos-dealy='150'>
-                    <div className="short-section">
+                <section className='blue-box h-auto w-full py-[100px]'>
+                    <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[35px] max-md:text-[30px] max-md:leading-[45px]'>why choose <span className='text-[var(--dark-orange)]'>sovereign</span></h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px] max-md:text-[16px] max-md:leading-[25px] max-md:max-w-[100%]'>We're dedicated to helping organizations like yours thrive. Discover why we're the trusted partner for workplace well-being solutions.</p>
@@ -207,8 +207,8 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className='bg-black h-auto w-full py-[70px]' data-aos='fade-up' data-aos-dealy='150'>
-                    <div className="short-section">
+                <section className='bg-black h-auto w-full py-[70px]'>
+                    <div className="short-section" data-aos='fade-up' data-aos-dealy='100'>
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[35px] max-md:text-[27px]'>our working process</h3>
                             <p className='text-gray-400 font-light text-normal leading-[20px] max-w-[600px] max-md:text-[15px]'>How We Collaborate with You to Achieve Workplace Excellence</p>
