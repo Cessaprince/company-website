@@ -17,7 +17,7 @@ const Home = () => {
                 <Header />
 
                 <main className='w-full bg-black h-auto pb-[100px]' id='main-home'>
-                    <section className=''>
+                    <section className='' data-aos='fade-up' data-aos-dealy='0'>
                         <div className="mx-auto my-[35px] w-[90%] max-w-[90%] max-w-[800px]">
                             <h3 className='capitalize text-white text-[59px] font-black leading-[55px] text-center max-md:text-[35px] max-md:leading-[45px]'>Partner with <span className='text-[var(--dark-orange)]'>sovereign tech </span>for cutting-edge solutions</h3>
                             <div className="mx-auto my-[30px] w-[600px] max-w-[65%] max-md:w-[100%] max-md:max-w-[100%]">
@@ -40,7 +40,7 @@ const Home = () => {
                         </div>
                     </section>
 
-                    <section className='h-auto bg-black pt-[100px]'>
+                    <section className='h-auto bg-black pt-[100px]' data-aos='fade-up' data-aos-dealy='100'>
                         <div className="short-section">
                             <div className="flex flex-col gap-[20px] max-md:gap-[25px]">
                                 <div className='leading-[45px] flex flex-col max-md:w-[70%] max-md:gap-[15px] max-md:leading-[35px]'>
@@ -66,7 +66,7 @@ const Home = () => {
                         </div>
                     </section>
 
-                    <ProjectCount />
+                    <ProjectCount/>
 
 
 
@@ -78,7 +78,7 @@ const Home = () => {
                     </div>
                 </main>
 
-                <section className='blue-box h-auto w-full py-[100px]'>
+                <section className='blue-box h-auto w-full py-[100px]' data-aos='fade-up' data-aos-dealy='150'>
                     <div className="short-section">
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[27px]'>what we do</h3>
@@ -115,7 +115,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className='bg-black h-auto w-full py-[100px]'>
+                <section className='bg-black h-auto w-full py-[100px]' data-aos='fade-up' data-aos-dealy='150'>
                     <div className="short-section">
 
                         <div className="flex flex-col items-center gap-2 text-center">
@@ -144,7 +144,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className='bg-black h-auto w-full py-[100px]'>
+                <section className='bg-black h-auto w-full py-[100px]' data-aos='fade-up' data-aos-dealy='150'>
                     <div className="short-section flex gap-[50px] max-md:flex-col">
                         <div className="flex flex-col gap-2 max-w-[600px] gap-[20px] max-lg:max-w-[45%] max-md:max-w-[100%]">
                             <h3 className='text-white capitalize font-bold text-[30px] leading-[40px] max-md:text-[24px] max-md:leading-[35px] max-lg:text-[34px]'>Expertise Without Borders: Collaborate with Us</h3>
@@ -171,7 +171,7 @@ const Home = () => {
                 </section>
 
 
-                <section className='blue-box h-auto w-full py-[100px]'>
+                <section className='blue-box h-auto w-full py-[100px]' data-aos='fade-up' data-aos-dealy='150'>
                     <div className="short-section">
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[35px] max-md:text-[30px] max-md:leading-[45px]'>why choose <span className='text-[var(--dark-orange)]'>sovereign</span></h3>
@@ -207,7 +207,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className='bg-black h-auto w-full py-[70px]'>
+                <section className='bg-black h-auto w-full py-[70px]' data-aos='fade-up' data-aos-dealy='150'>
                     <div className="short-section">
                         <div className="flex flex-col items-center gap-2 text-center">
                             <h3 className='text-white capitalize font-bold text-[35px] max-md:text-[27px]'>our working process</h3>
